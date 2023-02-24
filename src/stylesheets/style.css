@@ -1,0 +1,20 @@
+* {
+    padding: 0;
+    margin: 0;
+  }
+  
+  body {
+    min-width: 320px;
+    max-width: 1440px;
+    background-image: linear-gradient(to right top, #d4d4e0, #bacde5, #92c9e4, #62c6d5, #3ec1b6, #2eb0a6, #1ca096, #009087, #07727e, #285567, #2e3a47, #232325);
+    /* background: linear-gradient(90deg, #5ee7df, #b490ca); */
+  }
+  
+  .container {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+  }
